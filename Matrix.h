@@ -2,6 +2,8 @@
 #define MATRIX_H
 
 //the indices are not 0-based!!
+
+//This comment is about the Haley commit
 class Matrix
 {
    private:
