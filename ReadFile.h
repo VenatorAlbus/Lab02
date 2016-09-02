@@ -7,19 +7,14 @@
 using namespace std;
 
 class ReadFile
-{
-   
-   private:
-      bool _eof;
-      bool closed;
-      
+{   
    public:
       ReadFile();             //constructor 
       ~ReadFile();            // destructor 
       void DisplayFile();
 };
 
-
+ 
 
 //ReadFile* createReadFile(const char* file_name);
 //void destroyReadFile(ReadFile* rf);
