@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-ReadFile* createReadFile(const char* file_name)
+ /*ReadFile* createReadFile(const char* file_name) 
 {
    ReadFile* rf = new ReadFile;
 
@@ -44,19 +44,18 @@ String* readLine(ReadFile* rf)
    String* str = new String((const char*) text.c_str());
    return str;
 }
-
+*/
 ReadFile::Readfile()
 {
-   
-   file = new ReadFile;
-   ifstream file;
-   
+   ReadFile* file = new ReadFile;
+   ifstream file;  
 }
 
 
 
 ReadFile::~ReadFile()
 {
+   ReadFile file*;
    delete file;
 }
 
@@ -64,20 +63,10 @@ ReadFile::~ReadFile()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+void DisplayFile() {
+   String* file_name = readString("Please enter the filename");
+   displayString(file_name);
+}
 
 
 

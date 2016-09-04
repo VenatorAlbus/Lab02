@@ -7,7 +7,8 @@
 using namespace std;
 
 class ReadFile
-{   
+{
+      
    public:
       ReadFile();             //constructor 
       ~ReadFile();            // destructor 
@@ -25,5 +26,6 @@ class ReadFile
 #endif
 
 
+  
 
 
